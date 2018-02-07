@@ -1,0 +1,291 @@
+/*
+===================================================================
+Imports
+===================================================================*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Rammetto+One);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|Allura|Amatic+SC|Arizonia|Averia+Sans+Libre|Cabin+Sketch|Francois+One|Jacques+Francois+Shadow|Josefin+Slab|Kaushan+Script|Love+Ya+Like+A+Sister|Merriweather|Offside|Open+Sans|Open+Sans+Condensed|Oswald|Over+the+Rainbow|Pacifico|Romanesco|Sacramento|Seaweed+Script|Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300|Pacifico|Oswald);
+/*==================================================================
+End Imports
+===================================================================*/
+
+/*==================================================================
+Overall Page
+===================================================================*/
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #576366;
+  background-image: url(https://i.imgur.com/1UPtrsb.jpg);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1,
+h2,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #404040;
+  font-size: 1.6em;
+  margin-bottom: 1.25em;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #3b80d1;
+}
+
+input,
+button {
+  padding: .5em;
+  font-size: .9em;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  outline: none;
+}
+button {
+  color: white;
+  background: #4188dc;
+  padding-left: 1em;
+  padding-right: 1em;
+  cursor: pointer;
+  border-color: rgba(0,0,0, .1);
+}
+button.red {
+  background: #B22222;
+}
+.container {
+  width: 95%;
+  max-width: 1000px;
+  padding: 1em;
+  margin: auto;
+  margin-top: 0;
+  background: #16161a;
+  border-radius: .5em;
+  box-shadow: 0 3px rgba(0,0,0, .1);
+  overflow: hidden;
+
+}
+/*==================================================================
+End Overall Page
+==================================================================*/
+
+/*==================================================================
+Home
+==================================================================*/
+.main-content {
+  padding: .5em 1em;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.intro {
+  margin-top: .5em;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1em;
+  line-height: 1.3;
+  color: #8989a0;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.main-img{
+  height: 10%;
+  width: 60%;
+}
+@media (min-width: 0) and (max-width: 768px) {
+  .intro{
+    font-size: .8em;
+  }
+}
+
+/*==================================================================
+End Home
+==================================================================*/
+
+/*==================================================================
+Header
+==================================================================*/
+
+h1.name {
+  font-family: averia sans libre;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom : 0;
+}
+h2.name {
+  font-family: averia sans libre;
+  font-size: 1.25em;
+  color: #6f6f7f;
+  margin-top: 0.2em;
+  margin-bottom : 0em;
+}
+
+header {
+  background: #212127;
+  margin-bottom: 2em;
+  border-radius: .5em;
+}
+
+.title{
+  padding: 1em;
+  width: 50%;
+  color: #d2d4db;
+}
+
+.main-nav {
+  margin-top: .75em;
+
+  width: 50%;
+  flex-flow: row;
+  justify-content: center;
+}
+.main-nav li{
+}
+
+.main-nav a {
+  margin-bottom: .5em;
+  font-family: 'Oswald',sans-serif;
+  font-size: 1.1em;
+  padding: .5em;
+  color: #91919B;
+  text-shadow: 0 -1px 1px #000;
+  text-align: center;
+  text-transform: uppercase;
+  transition: .2s;
+}
+
+.main-nav a:hover,
+.main-nav .active {
+  color: #f7ffff;
+}
+
+/*==================================================================
+End Header
+==================================================================*/
+/*==================================================================
+Big Media Query (Desktop/Tablet)
+==================================================================*/
+@media (min-width: 769px) {
+  body {
+    padding-top: 1.2em;
+  }
+
+  header,
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-nav a {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+  }
+  .main-nav a:hover {
+    border-color: rgba(0,0,0, .1);
+  }
+}
+
+.home a {
+  border-color: #3b80d1;
+}
+.media img,
+.media > div,
+.media > div {
+  width: 85.1%;
+  margin-left: 1.5em;
+}
+
+/*==================================================================
+End Big Media Query (Desktop/Tablet)
+==================================================================*/
+
+/*==================================================================
+Small Media Query (Phone)
+==================================================================*/
+@media (min-width: 0) and (max-width: 768px) {
+  body {
+    padding-top: .8em;
+  }
+  .main-nav {
+    display: none;
+  }
+
+  .main-nav a {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+  .main-nav a:hover {
+    border-color: rgba(0,0,0, .1);
+  }
+
+  header{
+    margin-bottom: .5em;
+  }
+  h1.name {
+    font-size: 1.15em;
+    margin-bottom: .2em;
+  }
+  h2.name {
+    font-size: 1em;
+  }
+  .title {
+    display: block;
+    width: 100%;
+    padding-top: .75em;
+    padding-bottom: .5em;
+  }
+  .home a {
+    border-color: transparent;
+  }
+  .home a,
+  input,
+  button {
+    display: block;
+    width: 45%;
+    margin-bottom: 1em;
+  }
+}
+
+
+/*==================================================================
+End Small Media Query (Phone)
+==================================================================*/
+
+
+/*==================================================================
+Dropdown
+==================================================================*/
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown__content {
+  display: none;
+  position: absolute;
+}
+.dropdown--active{
+  margin-bottom: 8em;
+}
+.dropdown--active .dropdown__content {
+  display: block;
+
+}
+
+/*==================================================================
+Dropdown
+==================================================================*/
