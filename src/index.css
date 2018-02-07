@@ -111,8 +111,8 @@ Home
 
 .video{
   width: 90%;
-  /* height: 30em; */
-  height: 150%;
+  height: 30em;
+
 }
 @media (min-width: 0) and (max-width: 768px) {
   .intro{
