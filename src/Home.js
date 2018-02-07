@@ -5,11 +5,12 @@ class Home extends Component{
   render(){
     return(
       <div className="main-content">
-        <img className="main-img" src="https://images-na.ssl-images-amazon.com/images/I/71Ao-WrjMDL._SL1500_.jpg" alt="me"></img>
+        <iframe className="video" title="Main Video" src="https://www.youtube.com/embed/QhCX2ypRDM0?rel=0" frameBorder="0" allowFullScreen></iframe>
         <h2 className="intro">If a picture is worth a thousand words then let me share your novel with the world.</h2>
 
 
-        
+
+
         <br></br>
         <br></br>
         <br></br>

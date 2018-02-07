@@ -4,7 +4,9 @@ import {
   Route
 } from 'react-router-dom';
 import Home from "./Home.js";
+
 import Header from "./Header.js";
+import NewGif from "./NewGif.js";
 
 class App extends Component {
   render() {
@@ -13,6 +15,7 @@ class App extends Component {
         <div className="container">
           <Header />
           <Route exact path="/" component={Home}/>
+          <Route path="/about" component={NewGif}/>
         </div>
       </HashRouter>
     );

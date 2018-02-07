@@ -108,6 +108,12 @@ Home
   height: 10%;
   width: 60%;
 }
+
+.video{
+  width: 90%;
+  /* height: 30em; */
+  height: 150%;
+}
 @media (min-width: 0) and (max-width: 768px) {
   .intro{
     font-size: .8em;
