@@ -4,8 +4,8 @@ import { NavLink} from 'react-router-dom';
 const Header = () => (
   <header>
     <div className="title">
-      <h1 className="name">Eye in the Sky Photos And Video</h1>
-      <h2 className="name">Aerial photography and video in Denver </h2>
+      <h1 className="name">Mile High Drone Services</h1>
+      <h2 className="name">Aerial Drone photography and video in Denver </h2>
     </div>
 
 
