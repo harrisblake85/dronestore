@@ -3,6 +3,7 @@ import {
   HashRouter,
   Route
 } from 'react-router-dom';
+import About from"./About.js";
 import Home from "./Home.js";
 
 import Header from "./Header.js";
@@ -16,6 +17,7 @@ class App extends Component {
           <Header />
           <Route exact path="/" component={Home}/>
           <Route path="/gallery" component={NewGif}/>
+          <Route path="/about" component={About}/>
         </div>
       </HashRouter>
     );
