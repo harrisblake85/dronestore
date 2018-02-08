@@ -4,6 +4,7 @@ import NewGif from './NewGif.js';
 const About = () => {
 
   return(
+    <div className="main-content">
     <div className="homeabout">
       <div className="story">
         <h2 className="homeh2">Our Team</h2>
@@ -23,6 +24,7 @@ const About = () => {
         <span><strong>The Best Pilots Available</strong> Blah Blah Blah</span>
 
       </div>
+    </div>
     </div>
   )
 }
