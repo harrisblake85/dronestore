@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Service from './Service.js';
 import NewGif from './NewGif.js';
-import Footer from './Footer.js';
+
 
 
 class Home extends Component{
@@ -68,9 +68,6 @@ class Home extends Component{
 
           </div>
         </div>
-        <br></br>
-        <Footer/>
-        <br></br>
       </div>
     )
   }

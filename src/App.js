@@ -5,8 +5,8 @@ import {
 } from 'react-router-dom';
 import About from"./About.js";
 import Home from "./Home.js";
-
 import Header from "./Header.js";
+import Footer from './Footer.js';
 import NewGif from "./NewGif.js";
 
 class App extends Component {
@@ -18,6 +18,7 @@ class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/gallery" component={NewGif}/>
           <Route path="/about" component={About}/>
+          <Footer />
         </div>
       </HashRouter>
     );
