@@ -128,7 +128,7 @@ Home
 
 .homeabout{
   margin: auto;
-  width: 95%;
+  width: 100%;
   padding: 2em;
   background: #212127;
   text-align: left;
@@ -411,7 +411,7 @@ Service
 
 .servicescontainer{
   margin: auto;
-  width: 95%;
+  width: 100%;
   padding: 1em;
   background: #212127;
   text-align: left;
