@@ -13,7 +13,7 @@ class Home extends Component{
         <div className="servicescontainer">
 
 
-          <h2 className="serviceh2">Our Services</h2>
+          <h2 className="homeh2">Our Services</h2>
 
           <div className="services">
           <Service
@@ -45,7 +45,14 @@ class Home extends Component{
         </div>
 
         <div className="homeabout">
+          <div className="story">
+            <h2 className="homeh2">Our Team</h2>
+            <img className="teamimg" src="http://www.clker.com/cliparts/r/l/z/n/r/F/male-avatar-md.png" alt="Our Team"></img>
+          </div>
 
+          <div className="qualifications">
+            <h2 className="homeh2">Our Qualifications</h2>
+          </div>
         </div>
 
 

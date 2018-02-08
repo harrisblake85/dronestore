@@ -114,8 +114,36 @@ Home
   height: 30em;
 }
 
+.homeh2{
+ font-family: 'Oswald',sans-serif;
+ font-size: 1.5em;
+ font-weight: 300;
+ color: white;
+ text-transform: uppercase;
+}
+
 .homeabout{
+  margin: auto;
+  width: 95%;
+  padding: 2em;
   background: #212127;
+  text-align: left;
+  display: flex;
+  flex-flow: row;
+}
+
+.story{
+  width: 49%;
+  height: 100%;
+}
+.story img{
+
+  margin: auto;
+  width: 100px;
+}
+.qualifications{
+  width: 49%;
+  height: 100%;
 }
 @media (min-width: 0) and (max-width: 768px) {
   .intro{
@@ -308,13 +336,7 @@ End Dropdown
 /*==================================================================
 Service
 ==================================================================*/
-h2.serviceh2{
- font-family: 'Oswald',sans-serif;
- font-size: 1.5em;
- font-weight: 300;
- color: white;
- text-transform: uppercase;
-}
+
 
 .servicescontainer{
   margin: auto;
