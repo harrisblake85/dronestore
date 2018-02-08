@@ -18,6 +18,12 @@ class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/gallery" component={NewGif}/>
           <Route path="/about" component={About}/>
+          <Route path="/contact" component={NewGif}/>
+          <Route path="/video&photos" component={NewGif}/>
+          <Route path="/events" component={NewGif}/>
+          <Route path="/inspections" component={NewGif}/>
+          <Route path="/pricing" component={NewGif}/>
+
           <Footer />
         </div>
       </HashRouter>
