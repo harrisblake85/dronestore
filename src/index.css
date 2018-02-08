@@ -115,11 +115,15 @@ Home
 }
 
 .homeh2{
- font-family: 'Oswald',sans-serif;
- font-size: 1.5em;
- font-weight: 300;
- color: white;
- text-transform: uppercase;
+  height: 10%;
+  width: 100%;
+  margin-left: .5em;
+  margin-bottom: 0em;
+  font-family: 'Oswald',sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
 }
 
 .homeabout{
@@ -134,21 +138,88 @@ Home
 
 .story{
   width: 49%;
-  height: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .story img{
+  height: 90%;
+  width: 50%;
+  margin-right: .5em;
+}
+.story strong{
+  font-weight: bold;
+  color: lightgray;
+}
+.story p{
+  color: rgb(111, 111, 127);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  height: 90%;
+  width: 45%;
+}
 
-  margin: auto;
-  width: 100px;
-}
 .qualifications{
+  margin-left: 2em;
   width: 49%;
-  height: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+.qualifications img{
+  height: 30%;
+  width: 48%;
+  margin-right: .5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+.qualifications strong{
+  font-weight: bold;
+  color: lightgray;
+}
+.qualifications span{
+  height: 30%;
+  width: 48%;
+  color: rgb(111, 111, 127);
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+
+}
+
 @media (min-width: 0) and (max-width: 768px) {
   .intro{
-    font-size: .8em;
+    font-size: 1em;
   }
+  .homeabout{
+    flex-flow: column;
+  }
+  .story{
+    width: 100%;
+  }
+  .story img{
+    width: 100%;
+  }
+  .story p{
+    width: 100%;
+  }
+  .qualifications{
+    height: 400px;
+    margin-left: 0em;
+    width: 100%;
+  }
+  .qualifications h2{
+    margin-top: 0em;
+  }
+
+
 }
 
 /*==================================================================
@@ -390,4 +461,15 @@ Service
 }
 /*==================================================================
 End Service
+==================================================================*/
+
+/*==================================================================
+Footer
+==================================================================*/
+footer{
+  color: #8989A0;
+}
+
+/*==================================================================
+End Footer
 ==================================================================*/
