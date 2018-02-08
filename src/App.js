@@ -15,7 +15,7 @@ class App extends Component {
         <div className="container">
           <Header />
           <Route exact path="/" component={Home}/>
-          <Route path="/about" component={NewGif}/>
+          <Route path="/gallery" component={NewGif}/>
         </div>
       </HashRouter>
     );

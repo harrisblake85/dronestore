@@ -112,7 +112,10 @@ Home
 .video{
   width: 90%;
   height: 30em;
+}
 
+.homeabout{
+  background: #212127;
 }
 @media (min-width: 0) and (max-width: 768px) {
   .intro{
@@ -299,5 +302,70 @@ Dropdown
 }
 
 /*==================================================================
-Dropdown
+End Dropdown
+==================================================================*/
+
+/*==================================================================
+Service
+==================================================================*/
+h2.serviceh2{
+ font-family: 'Oswald',sans-serif;
+ font-size: 1.5em;
+ font-weight: 300;
+ color: white;
+ text-transform: uppercase;
+}
+
+.servicescontainer{
+  margin: auto;
+  width: 95%;
+  padding: 1em;
+  background: #212127;
+  text-align: left;
+}
+
+.services{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.service {
+  text-align: center;
+  width: 20%;
+  padding: .1em;
+}
+
+.service img{
+  width: 100%;
+  height: 7em;
+  border: 2px solid black;
+}
+.service h4{
+  color: #D1D1DF;
+}
+
+.service p{
+  color: #6F6F7F;
+}
+
+.opthr{
+  display: none;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .service{
+    width: 100%;
+  }
+  .services{
+    flex-flow: column;
+  }
+  .opthr{
+    display: block;
+  }
+}
+/*==================================================================
+End Service
 ==================================================================*/

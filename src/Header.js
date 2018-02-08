@@ -13,8 +13,8 @@ const Header = () => (
       <li><NavLink exact to="/">Home</NavLink></li>
       <li><NavLink to="/about">About</NavLink></li>
       <li><NavLink to="/contact">Contact</NavLink></li>
+      <li><NavLink to="/video&photos">Video&Photos</NavLink></li>
       <li><NavLink to="/gallery">Gallery</NavLink></li>
-      <li><NavLink to="/news">News</NavLink></li>
       <li><NavLink to="/events">Events</NavLink></li>
       <li><NavLink to="/inspections">Inspections</NavLink></li>
       <li><NavLink to="/pricing">Pricing</NavLink></li>
